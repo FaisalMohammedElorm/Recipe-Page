@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+body {
+  background: hsl(13.73 83.84% 80.59%);
+  margin: 20px;
+}
+.intro {
+  color: hsl(30, 10%, 34%);
+}
+img {
+  height: 350px;
+  width: 100%;
+  border-radius: 10px;
+}
+.line {
+  border: none;
+  border-top: 1px solid hsl(30, 18%, 87%);
+  margin: 20px 0;
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+}
+h3 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+}
+h4 {
+  color:  hsl(332, 51%, 32%);
+  font-weight: 900;
+  font-family: "Young Serif", serif;
+}
+.requirements {
+  justify-content: space-between;
+  background-color: pink;
+  height: 150px;
+  width:95%;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: "Young Serif", serif;
+}
+.ingredients-list {
+  justify-content: space-between;
+  font-family: "Young Serif", serif;
+}
+ul li {
+  color: hsl(30, 10%, 34%);
+  padding-left: 35px;
+  margin: 10px;
+  font-family: "Young Serif", serif;
+}
+ol li {
+  color: hsl(30, 10%, 34%);
+  padding-left: 20px;
+  font-family: "Young Serif", serif;
+}
+li {
+  color: hsl(30, 10%, 34%);
+}
+section {
+  background: hsl(0, 0%, 100%);
+  height: 100%;
+  width: 500px;
+  padding: 25px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 380px;
+  font-family: "Young Serif", serif;
+}
+.right-side {
+  color: hsl(14, 45%, 36%);
+}
+.nutrition-table {
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+.nutrition-table td {
+  padding: 10px 20px; 
+}
+
+.nutrition-table td:first-child {
+  text-align: left; 
+}
+
+.nutrition-table td:last-child {
+  text-align: right; 
+}
+.nutrition-table tr:not(.no-border) td {
+  border-bottom: 1px solid hsl(30, 18%, 87%); 
+}
+.table-container {
+  color: hsl(30, 10%, 34%);
+  font-weight: 800;
+  font-family: "Outfit", sans-serif;
+}
